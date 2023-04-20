@@ -39,9 +39,10 @@ Partial Class Form2
         ' 
         PictureBox1.BackgroundImageLayout = ImageLayout.Center
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(186, 41)
+        PictureBox1.Location = New Point(213, 55)
+        PictureBox1.Margin = New Padding(3, 4, 3, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(126, 134)
+        PictureBox1.Size = New Size(144, 179)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -50,50 +51,56 @@ Partial Class Form2
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(227, 178)
+        Label1.Location = New Point(259, 237)
         Label1.Name = "Label1"
-        Label1.Size = New Size(43, 37)
+        Label1.Size = New Size(53, 46)
         Label1.TabIndex = 1
-        Label1.Text = "ID"' 
+        Label1.Text = "ID"
+        ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(186, 253)
+        Label2.Location = New Point(213, 337)
         Label2.Name = "Label2"
-        Label2.Size = New Size(117, 37)
+        Label2.Size = New Size(146, 46)
         Label2.TabIndex = 2
-        Label2.Text = "Pasword"' 
+        Label2.Text = "Pasword"
+        ' 
         ' Button1
         ' 
         Button1.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
-        Button1.Location = New Point(182, 364)
+        Button1.Location = New Point(208, 485)
+        Button1.Margin = New Padding(3, 4, 3, 4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(121, 40)
+        Button1.Size = New Size(138, 53)
         Button1.TabIndex = 3
         Button1.Text = "Aceptar"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' ID
         ' 
-        ID.Location = New Point(156, 218)
+        ID.Location = New Point(178, 291)
+        ID.Margin = New Padding(3, 4, 3, 4)
         ID.Name = "ID"
-        ID.Size = New Size(192, 23)
+        ID.Size = New Size(219, 27)
         ID.TabIndex = 4
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(156, 307)
+        TextBox2.Location = New Point(178, 409)
+        TextBox2.Margin = New Padding(3, 4, 3, 4)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(192, 23)
+        TextBox2.Size = New Size(219, 27)
         TextBox2.TabIndex = 5
         ' 
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(186, 41)
+        PictureBox2.Location = New Point(213, 55)
+        PictureBox2.Margin = New Padding(3, 4, 3, 4)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(42, 34)
+        PictureBox2.Size = New Size(48, 45)
         PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox2.TabIndex = 6
         PictureBox2.TabStop = False
@@ -103,19 +110,20 @@ Partial Class Form2
         btnsalir.BackColor = Color.Red
         btnsalir.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
         btnsalir.ForeColor = Color.Black
-        btnsalir.Location = New Point(409, 376)
+        btnsalir.Location = New Point(467, 501)
+        btnsalir.Margin = New Padding(3, 4, 3, 4)
         btnsalir.Name = "btnsalir"
-        btnsalir.Size = New Size(63, 40)
+        btnsalir.Size = New Size(72, 53)
         btnsalir.TabIndex = 7
         btnsalir.Text = "Salir"
         btnsalir.UseVisualStyleBackColor = False
         ' 
         ' Form2
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ButtonFace
-        ClientSize = New Size(484, 418)
+        ClientSize = New Size(553, 557)
         Controls.Add(btnsalir)
         Controls.Add(PictureBox2)
         Controls.Add(TextBox2)
@@ -124,6 +132,7 @@ Partial Class Form2
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Margin = New Padding(3, 4, 3, 4)
         Name = "Form2"
         Text = "Login"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()

@@ -57,4 +57,10 @@
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
 
     End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        Dim oform As New Form2
+        oform.Show()
+        Me.Visible = False
+    End Sub
 End Class

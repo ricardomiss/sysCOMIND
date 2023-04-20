@@ -19,5 +19,8 @@
     End Sub
     'Boton de salida
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim oform As New Form1
+        oform.Show()
+        Me.Visible = False
     End Sub
 End Class
