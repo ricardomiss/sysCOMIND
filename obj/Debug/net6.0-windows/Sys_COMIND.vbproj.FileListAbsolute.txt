@@ -1,0 +1,42 @@
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.vbproj.AssemblyReference.cache
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.Form2.resources
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.Form1.resources
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.Form3.resources
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.Resources.resources
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.Empleados.resources
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.vbproj.GenerateResource.cache
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.AssemblyInfoInputs.cache
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.AssemblyInfo.vb
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.vbproj.CoreCompileInputs.cache
+D:\Prueba\bin\Debug\net6.0-windows\Sys_COMIND.exe
+D:\Prueba\bin\Debug\net6.0-windows\Sys_COMIND.deps.json
+D:\Prueba\bin\Debug\net6.0-windows\Sys_COMIND.runtimeconfig.json
+D:\Prueba\bin\Debug\net6.0-windows\Sys_COMIND.dll
+D:\Prueba\bin\Debug\net6.0-windows\Sys_COMIND.pdb
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.dll
+D:\Prueba\obj\Debug\net6.0-windows\refint\Sys_COMIND.dll
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.pdb
+D:\Prueba\obj\Debug\net6.0-windows\Sys_COMIND.genruntimeconfig.cache
+D:\Prueba\obj\Debug\net6.0-windows\ref\Sys_COMIND.dll
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\Sys_COMIND.exe
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\Sys_COMIND.deps.json
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\Sys_COMIND.runtimeconfig.json
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\Sys_COMIND.dll
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\Sys_COMIND.pdb
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.vbproj.AssemblyReference.cache
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Form2.resources
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Form1.resources
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Form3.resources
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Resources.resources
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Empleados.resources
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.vbproj.GenerateResource.cache
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.AssemblyInfoInputs.cache
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.AssemblyInfo.vb
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.vbproj.CoreCompileInputs.cache
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.dll
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\refint\Sys_COMIND.dll
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.pdb
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.genruntimeconfig.cache
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\ref\Sys_COMIND.dll
