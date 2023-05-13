@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
         PictureBox1 = New PictureBox()
         Label1 = New Label()
@@ -37,12 +38,15 @@ Partial Class Form1
         TextBox3 = New TextBox()
         Label8 = New Label()
         Panel1 = New Panel()
+        btnsalir = New Button()
         Label10 = New Label()
         Label9 = New Label()
         PictureBox3 = New PictureBox()
         PictureBox2 = New PictureBox()
         Button1 = New Button()
         Button2 = New Button()
+        Label11 = New Label()
+        Timer2 = New Timer(components)
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
@@ -73,7 +77,7 @@ Partial Class Form1
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(51, 77)
+        Label2.Location = New Point(47, 71)
         Label2.Name = "Label2"
         Label2.Size = New Size(367, 37)
         Label2.TabIndex = 2
@@ -83,7 +87,7 @@ Partial Class Form1
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(126, 117)
+        Label3.Location = New Point(122, 111)
         Label3.Name = "Label3"
         Label3.Size = New Size(191, 37)
         Label3.TabIndex = 3
@@ -91,7 +95,7 @@ Partial Class Form1
         ' 
         ' MonthCalendar1
         ' 
-        MonthCalendar1.Location = New Point(58, 157)
+        MonthCalendar1.Location = New Point(72, 157)
         MonthCalendar1.Name = "MonthCalendar1"
         MonthCalendar1.TabIndex = 4
         ' 
@@ -121,7 +125,7 @@ Partial Class Form1
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(216, 401)
+        Label5.Location = New Point(207, 401)
         Label5.Name = "Label5"
         Label5.Size = New Size(118, 20)
         Label5.TabIndex = 8
@@ -130,7 +134,7 @@ Partial Class Form1
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(382, 401)
+        Label6.Location = New Point(373, 401)
         Label6.Name = "Label6"
         Label6.Size = New Size(108, 20)
         Label6.TabIndex = 9
@@ -163,6 +167,7 @@ Partial Class Form1
         ' Panel1
         ' 
         Panel1.BackColor = SystemColors.ActiveCaption
+        Panel1.Controls.Add(btnsalir)
         Panel1.Controls.Add(Label10)
         Panel1.Controls.Add(Label9)
         Panel1.Controls.Add(PictureBox3)
@@ -172,6 +177,19 @@ Partial Class Form1
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(173, 500)
         Panel1.TabIndex = 13
+        ' 
+        ' btnsalir
+        ' 
+        btnsalir.BackColor = Color.Red
+        btnsalir.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
+        btnsalir.ForeColor = Color.Black
+        btnsalir.Location = New Point(23, 13)
+        btnsalir.Margin = New Padding(3, 4, 3, 4)
+        btnsalir.Name = "btnsalir"
+        btnsalir.Size = New Size(72, 53)
+        btnsalir.TabIndex = 17
+        btnsalir.Text = "Salir"
+        btnsalir.UseVisualStyleBackColor = False
         ' 
         ' Label10
         ' 
@@ -229,19 +247,34 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(617, 403)
+        Button2.Location = New Point(617, 409)
         Button2.Margin = New Padding(3, 4, 3, 4)
         Button2.Name = "Button2"
-        Button2.Size = New Size(70, 59)
+        Button2.Size = New Size(78, 49)
         Button2.TabIndex = 15
         Button2.Text = "Registrar"
         Button2.UseVisualStyleBackColor = True
+        ' 
+        ' Label11
+        ' 
+        Label11.AutoSize = True
+        Label11.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label11.Location = New Point(125, 340)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(68, 23)
+        Label11.TabIndex = 16
+        Label11.Text = "Label11"
+        ' 
+        ' Timer2
+        ' 
+        Timer2.Enabled = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(853, 479)
+        Controls.Add(Label11)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(Panel1)
@@ -291,4 +324,7 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Button2 As Button
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents btnsalir As Button
 End Class

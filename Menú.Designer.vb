@@ -28,6 +28,7 @@ Partial Class Form3
         Button4 = New Button()
         Button5 = New Button()
         Button6 = New Button()
+        btnsalir = New Button()
         SuspendLayout()
         ' 
         ' Button1
@@ -89,12 +90,27 @@ Partial Class Form3
         Button6.TabIndex = 5
         Button6.Text = "Salir"
         Button6.UseVisualStyleBackColor = True
+        Button6.Visible = False
+        ' 
+        ' btnsalir
+        ' 
+        btnsalir.BackColor = Color.Red
+        btnsalir.Font = New Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point)
+        btnsalir.ForeColor = Color.Black
+        btnsalir.Location = New Point(515, 390)
+        btnsalir.Margin = New Padding(3, 4, 3, 4)
+        btnsalir.Name = "btnsalir"
+        btnsalir.Size = New Size(72, 53)
+        btnsalir.TabIndex = 8
+        btnsalir.Text = "Salir"
+        btnsalir.UseVisualStyleBackColor = False
         ' 
         ' Form3
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(678, 500)
+        Controls.Add(btnsalir)
         Controls.Add(Button6)
         Controls.Add(Button5)
         Controls.Add(Button4)
@@ -103,7 +119,7 @@ Partial Class Form3
         Controls.Add(Button1)
         Margin = New Padding(3, 4, 3, 4)
         Name = "Form3"
-        Text = "Form3"
+        Text = "Menu"
         ResumeLayout(False)
     End Sub
 
@@ -113,4 +129,5 @@ Partial Class Form3
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents btnsalir As Button
 End Class

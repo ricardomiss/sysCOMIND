@@ -10,7 +10,7 @@
 
 
     Private Sub btnsalir_Click(sender As Object, e As EventArgs) Handles btnsalir.Click
-
+        Application.Exit()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
