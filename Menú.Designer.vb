@@ -22,7 +22,6 @@ Partial Class Form3
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Button1 = New Button()
         Button2 = New Button()
         Button3 = New Button()
         Button4 = New Button()
@@ -31,19 +30,9 @@ Partial Class Form3
         btnsalir = New Button()
         SuspendLayout()
         ' 
-        ' Button1
-        ' 
-        Button1.Location = New Point(246, 79)
-        Button1.Margin = New Padding(3, 4, 3, 4)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(157, 131)
-        Button1.TabIndex = 0
-        Button1.Text = "Datos de empleado"
-        Button1.UseVisualStyleBackColor = True
-        ' 
         ' Button2
         ' 
-        Button2.Location = New Point(55, 75)
+        Button2.Location = New Point(133, 75)
         Button2.Margin = New Padding(3, 4, 3, 4)
         Button2.Name = "Button2"
         Button2.Size = New Size(154, 135)
@@ -53,7 +42,7 @@ Partial Class Form3
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(445, 79)
+        Button3.Location = New Point(379, 79)
         Button3.Margin = New Padding(3, 4, 3, 4)
         Button3.Name = "Button3"
         Button3.Size = New Size(153, 131)
@@ -63,7 +52,7 @@ Partial Class Form3
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(159, 235)
+        Button4.Location = New Point(133, 235)
         Button4.Margin = New Padding(3, 4, 3, 4)
         Button4.Name = "Button4"
         Button4.Size = New Size(154, 135)
@@ -73,7 +62,7 @@ Partial Class Form3
         ' 
         ' Button5
         ' 
-        Button5.Location = New Point(362, 235)
+        Button5.Location = New Point(378, 235)
         Button5.Margin = New Padding(3, 4, 3, 4)
         Button5.Name = "Button5"
         Button5.Size = New Size(154, 135)
@@ -116,14 +105,11 @@ Partial Class Form3
         Controls.Add(Button4)
         Controls.Add(Button3)
         Controls.Add(Button2)
-        Controls.Add(Button1)
         Margin = New Padding(3, 4, 3, 4)
         Name = "Form3"
         Text = "Menu"
         ResumeLayout(False)
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button

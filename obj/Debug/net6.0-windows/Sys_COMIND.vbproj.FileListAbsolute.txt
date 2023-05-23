@@ -41,3 +41,5 @@ D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.pdb
 D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.genruntimeconfig.cache
 D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\ref\Sys_COMIND.dll
 D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Permisos.resources
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.mostrar_Empleados.resources
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.mostrar_Permisos.resources

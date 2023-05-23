@@ -150,42 +150,42 @@ Partial Class Empleados
         ' Button1
         ' 
         Button1.ImageAlign = ContentAlignment.MiddleRight
-        Button1.Location = New Point(217, 471)
+        Button1.Location = New Point(33, 485)
         Button1.Margin = New Padding(3, 4, 3, 4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(86, 31)
+        Button1.Size = New Size(104, 43)
         Button1.TabIndex = 14
-        Button1.Text = "Guardar "
+        Button1.Text = "Registrar"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(336, 464)
+        Button2.Location = New Point(254, 485)
         Button2.Margin = New Padding(3, 4, 3, 4)
         Button2.Name = "Button2"
         Button2.Size = New Size(104, 43)
         Button2.TabIndex = 15
-        Button2.Text = "limpiar"
+        Button2.Text = "Limpiar"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(472, 459)
+        Button3.Location = New Point(438, 485)
         Button3.Margin = New Padding(3, 4, 3, 4)
         Button3.Name = "Button3"
-        Button3.Size = New Size(104, 43)
+        Button3.Size = New Size(148, 43)
         Button3.TabIndex = 16
-        Button3.Text = "Button3"
+        Button3.Text = "Mostrar Empleados"
         Button3.UseVisualStyleBackColor = True
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(614, 464)
+        Button4.Location = New Point(691, 485)
         Button4.Margin = New Padding(3, 4, 3, 4)
         Button4.Name = "Button4"
         Button4.Size = New Size(104, 43)
         Button4.TabIndex = 17
-        Button4.Text = "Button4"
+        Button4.Text = "Salir"
         Button4.UseVisualStyleBackColor = True
         ' 
         ' Label8

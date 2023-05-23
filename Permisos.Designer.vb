@@ -50,6 +50,7 @@ Partial Class Permisos
         Button3 = New Button()
         ComboBox1 = New ComboBox()
         ComboBox2 = New ComboBox()
+        Button4 = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -251,16 +252,16 @@ Partial Class Permisos
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(93, 481)
+        Button1.Location = New Point(45, 481)
         Button1.Name = "Button1"
         Button1.Size = New Size(94, 29)
         Button1.TabIndex = 26
-        Button1.Text = "Nuevo"
+        Button1.Text = "Limpiar"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(334, 481)
+        Button2.Location = New Point(226, 481)
         Button2.Name = "Button2"
         Button2.Size = New Size(94, 29)
         Button2.TabIndex = 27
@@ -269,7 +270,7 @@ Partial Class Permisos
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(564, 481)
+        Button3.Location = New Point(595, 481)
         Button3.Name = "Button3"
         Button3.Size = New Size(94, 29)
         Button3.TabIndex = 28
@@ -294,11 +295,21 @@ Partial Class Permisos
         ComboBox2.Size = New Size(270, 28)
         ComboBox2.TabIndex = 30
         ' 
+        ' Button4
+        ' 
+        Button4.Location = New Point(399, 481)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(134, 29)
+        Button4.TabIndex = 31
+        Button4.Text = "Mostrar Permisos"
+        Button4.UseVisualStyleBackColor = True
+        ' 
         ' Permisos
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(750, 522)
+        Controls.Add(Button4)
         Controls.Add(ComboBox2)
         Controls.Add(ComboBox1)
         Controls.Add(Button3)
@@ -361,4 +372,5 @@ Partial Class Permisos
     Friend WithEvents Button3 As Button
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Button4 As Button
 End Class
