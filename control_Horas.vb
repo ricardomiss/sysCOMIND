@@ -1,22 +1,12 @@
 ﻿Imports System.Data.SqlClient
 
-Public Class mostrar_Permisos
+Public Class control_Horas
     'String donde se guarda la informacion de la BD
     '"Data Source=nombre_servidor;Initial Catalog=nombre_base_datos;User ID=usuario;Password=contraseña"
     Private conexionstr As String = "Data Source=11ITACHIKUN;Initial Catalog=sys_COMINDDB;User ID=sa;Password=admin123"
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Dim oform As New Form3
-        oform.Show()
-        Me.Visible = False
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
-    End Sub
-
-    Private Sub mostrar_Permisos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub control_Horas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Consulta SQL para obtener los datos de la tabla HORARIOS
-        Dim query As String = "SELECT * FROM PERMISOS"
+        Dim query As String = "SELECT * FROM HORARIOS"
 
         ' Crear una conexión a la base de datos y un adaptador de datos
         Using connection As New SqlConnection(conexionstr)
@@ -39,5 +29,15 @@ Public Class mostrar_Permisos
                 End Try
             End Using
         End Using
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim oform As New Form3
+        oform.Show()
+        Me.Visible = False
     End Sub
 End Class

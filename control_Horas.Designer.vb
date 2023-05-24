@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class mostrar_Empleados
+Partial Class control_Horas
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -30,31 +30,32 @@ Partial Class mostrar_Empleados
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(19, 21)
+        DataGridView1.Location = New Point(32, 45)
         DataGridView1.Name = "DataGridView1"
+        DataGridView1.ReadOnly = True
         DataGridView1.RowHeadersWidth = 51
         DataGridView1.RowTemplate.Height = 29
-        DataGridView1.Size = New Size(975, 359)
+        DataGridView1.Size = New Size(755, 415)
         DataGridView1.TabIndex = 0
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(900, 409)
+        Button3.Location = New Point(656, 486)
         Button3.Name = "Button3"
         Button3.Size = New Size(94, 29)
-        Button3.TabIndex = 30
+        Button3.TabIndex = 29
         Button3.Text = "Salir"
         Button3.UseVisualStyleBackColor = True
         ' 
-        ' mostrar_Empleados
+        ' control_Horas
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1006, 450)
+        ClientSize = New Size(836, 527)
         Controls.Add(Button3)
         Controls.Add(DataGridView1)
-        Name = "mostrar_Empleados"
-        Text = "Empleados"
+        Name = "control_Horas"
+        Text = "control_Horas"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub

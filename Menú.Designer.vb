@@ -25,14 +25,13 @@ Partial Class Form3
         Button2 = New Button()
         Button3 = New Button()
         Button4 = New Button()
-        Button5 = New Button()
         Button6 = New Button()
         btnsalir = New Button()
         SuspendLayout()
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(133, 75)
+        Button2.Location = New Point(75, 75)
         Button2.Margin = New Padding(3, 4, 3, 4)
         Button2.Name = "Button2"
         Button2.Size = New Size(154, 135)
@@ -42,33 +41,23 @@ Partial Class Form3
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(379, 79)
+        Button3.Location = New Point(434, 75)
         Button3.Margin = New Padding(3, 4, 3, 4)
         Button3.Name = "Button3"
-        Button3.Size = New Size(153, 131)
+        Button3.Size = New Size(153, 135)
         Button3.TabIndex = 2
         Button3.Text = "Control de horas"
         Button3.UseVisualStyleBackColor = True
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(133, 235)
+        Button4.Location = New Point(250, 237)
         Button4.Margin = New Padding(3, 4, 3, 4)
         Button4.Name = "Button4"
         Button4.Size = New Size(154, 135)
         Button4.TabIndex = 3
         Button4.Text = "Permisos"
         Button4.UseVisualStyleBackColor = True
-        ' 
-        ' Button5
-        ' 
-        Button5.Location = New Point(378, 235)
-        Button5.Margin = New Padding(3, 4, 3, 4)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(154, 135)
-        Button5.TabIndex = 4
-        Button5.Text = "Vacaciones"
-        Button5.UseVisualStyleBackColor = True
         ' 
         ' Button6
         ' 
@@ -101,7 +90,6 @@ Partial Class Form3
         ClientSize = New Size(678, 500)
         Controls.Add(btnsalir)
         Controls.Add(Button6)
-        Controls.Add(Button5)
         Controls.Add(Button4)
         Controls.Add(Button3)
         Controls.Add(Button2)
@@ -113,7 +101,6 @@ Partial Class Form3
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents btnsalir As Button
 End Class
