@@ -132,6 +132,7 @@ Partial Class Form2
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(PictureBox1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(3, 4, 3, 4)
         Name = "Form2"
         Text = "Login"

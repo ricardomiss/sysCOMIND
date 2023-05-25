@@ -43,3 +43,11 @@ D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\ref\Sys_COMIND.dll
 D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Permisos.resources
 D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.mostrar_Empleados.resources
 D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.mostrar_Permisos.resources
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Downloads\Proyecto Syscomind\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.vbproj.CopyComplete
+D:\Downloads\Proyecto Syscomind\obj\Debug\net6.0-windows\Sys_COMIND.Horas.resources

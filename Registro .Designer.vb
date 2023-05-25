@@ -254,10 +254,12 @@ Partial Class Empleados
         ' 
         ' PictureBox1
         ' 
+        PictureBox1.Image = My.Resources.Resources.empleados
         PictureBox1.Location = New Point(560, 35)
         PictureBox1.Margin = New Padding(3, 4, 3, 4)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(278, 352)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 26
         PictureBox1.TabStop = False
         ' 
