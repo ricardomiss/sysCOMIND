@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class control_Horas
+Partial Class Horas
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,20 +22,23 @@ Partial Class control_Horas
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Horas))
         DataGridView1 = New DataGridView()
         Button3 = New Button()
+        PictureBox1 = New PictureBox()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(32, 45)
+        DataGridView1.Location = New Point(30, 99)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.ReadOnly = True
         DataGridView1.RowHeadersWidth = 51
         DataGridView1.RowTemplate.Height = 29
-        DataGridView1.Size = New Size(755, 415)
+        DataGridView1.Size = New Size(754, 340)
         DataGridView1.TabIndex = 0
         ' 
         ' Button3
@@ -47,19 +50,33 @@ Partial Class control_Horas
         Button3.Text = "Salir"
         Button3.UseVisualStyleBackColor = True
         ' 
-        ' control_Horas
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.calendar
+        PictureBox1.Location = New Point(30, 12)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(129, 81)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 30
+        PictureBox1.TabStop = False
+        ' 
+        ' Horas
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(836, 527)
+        Controls.Add(PictureBox1)
         Controls.Add(Button3)
         Controls.Add(DataGridView1)
-        Name = "control_Horas"
-        Text = "control_Horas"
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Name = "Horas"
+        Text = "Registro de Horas"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button3 As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

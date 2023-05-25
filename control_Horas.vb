@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
-Public Class control_Horas
+Public Class Horas
     'String donde se guarda la informacion de la BD
     '"Data Source=nombre_servidor;Initial Catalog=nombre_base_datos;User ID=usuario;Password=contraseña"
     Private conexionstr As String = "Data Source=11ITACHIKUN;Initial Catalog=sys_COMINDDB;User ID=sa;Password=admin123"

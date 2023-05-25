@@ -22,6 +22,7 @@ Partial Class mostrar_Permisos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(mostrar_Permisos))
         DataGridView1 = New DataGridView()
         Button3 = New Button()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
@@ -54,6 +55,7 @@ Partial Class mostrar_Permisos
         ClientSize = New Size(1094, 461)
         Controls.Add(Button3)
         Controls.Add(DataGridView1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "mostrar_Permisos"
         Text = "Registro de Permisos"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()

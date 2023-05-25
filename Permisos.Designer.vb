@@ -22,6 +22,7 @@ Partial Class Permisos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Permisos))
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -51,6 +52,8 @@ Partial Class Permisos
         ComboBox1 = New ComboBox()
         ComboBox2 = New ComboBox()
         Button4 = New Button()
+        PictureBox1 = New PictureBox()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
@@ -304,11 +307,22 @@ Partial Class Permisos
         Button4.Text = "Mostrar Permisos"
         Button4.UseVisualStyleBackColor = True
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.permission
+        PictureBox1.Location = New Point(12, 2)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(82, 80)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 32
+        PictureBox1.TabStop = False
+        ' 
         ' Permisos
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(750, 522)
+        Controls.Add(PictureBox1)
         Controls.Add(Button4)
         Controls.Add(ComboBox2)
         Controls.Add(ComboBox1)
@@ -338,8 +352,10 @@ Partial Class Permisos
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Permisos"
         Text = "Permisos"
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -373,4 +389,5 @@ Partial Class Permisos
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
